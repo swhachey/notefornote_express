@@ -37,5 +37,6 @@ noteJSON.push( { id, ...req.body} );
 res.json(noteJSON.slice(-1));
 });
 
+
 //Server Listener
 app.listen(PORT, () => console.log(`App listening on port ${PORT}`));
